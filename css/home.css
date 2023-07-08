@@ -14,6 +14,9 @@ main .intro{
 .wlc{
     margin-top: 3vh;
 }
+main .intro .item{
+    text-align: center;
+}
 main .intro > div{
     width: 505px;
 }
@@ -27,7 +30,7 @@ main .intro .me .resume{
     align-items: center;
 }
 main .intro .me .resume button{
-    height: 8vh;
+    height: 50px;
     width: 110px;
     font-size: 1.4rem;
     border-radius: 5px;
@@ -74,6 +77,11 @@ main .intro .image img{
     }
 }
 @media only screen and (max-width:415px) {
+    main .intro{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     main .intro .me{
         font-size: 1.5rem;
     }
