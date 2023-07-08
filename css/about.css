@@ -1,0 +1,35 @@
+main{
+    height: fit-content;
+}
+main .des{
+    margin: 12px 32px;
+}
+main .head{
+    text-align: center;
+    font-size: 3rem;
+}
+main .head img{
+    height: 9vh;
+}
+.about-me{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+align-content:flex-start;
+align-items: center;
+flex-wrap: wrap;
+height: fit-content;
+/* margin: 10px; */
+}
+.about-me .item{
+    width: 500px;
+    height: 400px;
+}
+.about-me .image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 250px;
+}
+.about-me .me{
+    font-size: 2rem;
+}

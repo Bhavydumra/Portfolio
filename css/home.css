@@ -1,0 +1,90 @@
+main{
+    height: fit-content;
+    width: 100vw;
+}
+main .intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    margin-bottom: 20px;
+}
+.wlc{
+    margin-top: 3vh;
+}
+main .intro > div{
+    width: 505px;
+}
+main .intro .me{
+    font-size: 3rem;
+}
+main .intro .me .resume{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+}
+main .intro .me .resume button{
+    height: 8vh;
+    width: 110px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+
+}
+main .intro .me .resume button:hover{
+    background-color: rgb(58, 46, 94);
+}
+/* .intro .image{
+    width: 30%;
+} */
+main .intro .image img{
+    height: 60vh;
+    /* width: 27vw; */
+}
+
+/* responsiveness */
+@media only screen and (max-width:1362px) {
+    main .intro .image img{
+        height: 50vh;
+        
+    }
+}
+@media only screen and (max-width:1010px) {
+    main .intro .me{
+        font-size: 2.3rem;
+        margin: 12px;
+    }
+    main .intro .me .resume button{
+        height: 5vh;
+    top: 6vh;
+        font-size: 1.1rem;
+    }
+    main .intro .image img{
+        height: 40vh;
+        /* width: 27vw; */
+    }
+    main .intro .me {
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width:415px) {
+    main .intro .me{
+        font-size: 1.5rem;
+    }
+    main .intro .me .resume button{
+        height: 3vh;
+    top: 4vh;
+    font-size: 1.1rem;
+    }
+    main .intro .image img{
+        height: 25vh;
+        /* width: 27vw; */
+    }
+    
+}

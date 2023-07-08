@@ -1,0 +1,39 @@
+main{
+    height: fit-content;
+    margin: 40px;
+}
+main .desc{
+    margin: 12px 32px;
+}
+main .name{
+    font-size: 3.2rem;
+    text-align: center;
+}
+main .name img{
+    height: 15vh;
+}
+main .skill{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+align-content: space-evenly;
+flex-wrap: wrap;
+}
+main .skill .skill-type{
+    border: 2px solid black;
+    height: 300px;
+    width: 150px;
+}
+main .skill .skill-type header h3{
+    background-color: black;
+    color: white;
+}
+main .skill .skill-type ul{
+    list-style: none;
+}
+main .skill .skill-type ul li{
+    margin: 20px 0px;
+}
+main .skill .skill-type ul li img{
+    height: 30px;
+}
