@@ -21,7 +21,7 @@ flex-wrap: wrap;
 }
 main .skill .skill-type{
     border: 2px solid black;
-    height: 300px;
+    height: max-content;
     width: 150px;
 }
 main .skill .skill-type header h3{
