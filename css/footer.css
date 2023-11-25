@@ -18,6 +18,7 @@ footer .container .col{
 }
 footer .container .col h6{
     margin-bottom: 10px;
+    min-height: max-content;
 }
 footer .container .Auther img{
     height: 15px;
