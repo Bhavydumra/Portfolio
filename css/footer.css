@@ -9,9 +9,12 @@ footer > p{
 footer .container{
     display: flex;
     justify-content: space-around;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100vw;
+}
+footer .container .col{
+    min-width: fit-content;
 }
 footer .container .col h6{
     margin-bottom: 10px;
@@ -30,8 +33,6 @@ footer a:hover{
     color: rgb(109, 109, 109);
 }
 footer .mine{
-    /* position: relative;
-left: 30vw; */
 margin: 10px 0px;
 }
 footer .mine .contact{

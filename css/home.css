@@ -28,6 +28,8 @@ main .intro .me .resume{
     justify-content: space-evenly;
     align-content: space-around;
     align-items: center;
+    min-height: max-content;
+    min-width: max-content;
 }
 main .intro .me .resume button{
     height: 50px;
