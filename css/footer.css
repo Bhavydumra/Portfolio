@@ -14,7 +14,7 @@ footer .container{
     width: 100vw;
 }
 footer .container .col{
-    min-width: fit-content;
+    min-width: max-content;
 }
 footer .container .col h6{
     margin-bottom: 10px;
