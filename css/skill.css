@@ -28,6 +28,7 @@ main .skill .skill-type{
 main .skill .skill-type header h3{
     background-color: black;
     color: white;
+    min-height: max-content;
 }
 main .skill .skill-type ul{
     list-style: none;
