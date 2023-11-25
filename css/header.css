@@ -7,8 +7,15 @@ body{
     background-color:#48719c80;
     font-family: "Poppins", sans-serif;
     height: fit-content;
+    margin-top: 10vh;
     /* width: 100vw; */
 
+}
+body>header{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 body hr{
     margin: 0;
